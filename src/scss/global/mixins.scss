@@ -1,0 +1,5 @@
+@mixin media($property) {
+   @media (max-width: $property) {
+      @content;
+   }
+}
